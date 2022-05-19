@@ -27,9 +27,17 @@ body {
 }
 
 main {
-    width: 300px;
+    width: 375px;
     height: fit-content;
     background-color: var(--cardBg);
+    padding: 1.125em;
+    border-radius: 14px;
+}
+
+main #main-hero-img {
+    width: 100%;
+    height: auto;
+    border-radius: 7px;
 }
 
 main h2 {
@@ -49,10 +57,20 @@ ul {
     list-style-type: none;
     font-weight: 400;
     color: var(--softBlue);
+    border-bottom: 2px solid var(--line);
 }
 
 ul :first-child {
     color: var(--cyan);
+    font-weight: 400;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0em 0em 0em 0em;
+    font-weight: 300;
 }
 
 #card-foot {
@@ -74,6 +92,7 @@ ul :first-child {
 .attribution {
     font-size: 11px;
     text-align: center;
+    color: white;
 }
 
 .attribution a {
