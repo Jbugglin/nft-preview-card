@@ -27,7 +27,7 @@ body {
 }
 
 main {
-    width: 375px;
+    width: 85vw;
     height: fit-content;
     background-color: var(--cardBg);
     padding: 1.125em;
@@ -97,4 +97,10 @@ ul li {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 376px) {
+    main {
+        max-width: 375px;
+    }
 }
