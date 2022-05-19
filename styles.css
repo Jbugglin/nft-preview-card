@@ -27,7 +27,7 @@ body {
 }
 
 main {
-    width: 85vw;
+    width: 80vw;
     height: fit-content;
     background-color: var(--cardBg);
     padding: 1.125em;
