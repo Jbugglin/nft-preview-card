@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --softBlue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --mainBg: hsl(217, 54%, 11%);
+    --cardBg: hsl(216, 50%, 16%);
+    --line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    font-size: 1.125rem;
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--mainBg);
+}
+
+main {
+    width: 300px;
+    height: fit-content;
+    background-color: var(--cardBg);
+}
+
+main h2 {
+    font-weight: 600;
+    color: var(--white);
+}
+
+main p {
+    font-weight: 300;
+    color: var(--softBlue);
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    font-weight: 400;
+    color: var(--softBlue);
+}
+
+ul :first-child {
+    color: var(--cyan);
+}
+
+#card-foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card-foot img {
+    border: 2px solid var(--white);
+    border-radius: 50%;
+}
+
+#card-foot span {
+    color: var(--white);
+    font-weight: 400;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
