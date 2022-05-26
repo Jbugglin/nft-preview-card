@@ -124,6 +124,12 @@ ul img {
     padding: 0.75em 0em 0em;
 }
 
+#card-foot h2 {
+    color: var(--softBlue);
+    font-size: 0.90rem;
+    font-weight: 300;
+}
+
 #card-foot img {
     border: 1px solid var(--white);
     border-radius: 50%;
